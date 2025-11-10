@@ -6,6 +6,7 @@ __pycache__/
 *.env
 *.xml
 *.iml
+.idea
 .DS_Store
 .git
 .gitignore
