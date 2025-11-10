@@ -2,6 +2,7 @@ from flask import Flask
 from helpers import restresponse
 
 app = Flask(__name__)
+app.json.sort_keys = False
 
 @app.route("/hello")
 def hello():
